@@ -1,0 +1,1120 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B104631F1938E1480064ACBA /* GEKLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B104631E1938E1480064ACBA /* GEKLoginViewController.m */; };
+		B104632419392AF30064ACBA /* GEKSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B104632319392AF30064ACBA /* GEKSettingsViewController.m */; };
+		B10F8B5D19366D440093DCAA /* GEKThreadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B10F8B5C19366D440093DCAA /* GEKThreadCell.m */; };
+		B10F8B5E19367AC20093DCAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1B22312192F92250050B1E5 /* Main.storyboard */; };
+		B117438D1940B208001552C8 /* attachment.png in Resources */ = {isa = PBXBuildFile; fileRef = B11743831940B208001552C8 /* attachment.png */; };
+		B117438E1940B208001552C8 /* attachment@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B11743841940B208001552C8 /* attachment@2x.png */; };
+		B11743931940B208001552C8 /* inputTextBG.png in Resources */ = {isa = PBXBuildFile; fileRef = B11743891940B208001552C8 /* inputTextBG.png */; };
+		B11743941940B208001552C8 /* inputTextBG@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B117438A1940B208001552C8 /* inputTextBG@2x.png */; };
+		B11743951940B208001552C8 /* play_button.png in Resources */ = {isa = PBXBuildFile; fileRef = B117438B1940B208001552C8 /* play_button.png */; };
+		B11743961940B208001552C8 /* play_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B117438C1940B208001552C8 /* play_button@2x.png */; };
+		B118263619378D300035860F /* GEKMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = B118263519378D300035860F /* GEKMessage.m */; };
+		B12683D1196D981200DB2F1D /* GEKSettingsHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B12683D0196D981200DB2F1D /* GEKSettingsHeaderCell.m */; };
+		B12683D4196DDDCE00DB2F1D /* GEKToken.m in Sources */ = {isa = PBXBuildFile; fileRef = B12683D3196DDDCE00DB2F1D /* GEKToken.m */; };
+		B12683D9196DED5F00DB2F1D /* GEKLoginRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B12683D8196DED5F00DB2F1D /* GEKLoginRequest.m */; };
+		B12683DC196E231B00DB2F1D /* GEKLoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B12683DB196E231B00DB2F1D /* GEKLoginManager.m */; };
+		B12683DE196E576200DB2F1D /* ZiplineLogin.png in Resources */ = {isa = PBXBuildFile; fileRef = B12683DD196E576200DB2F1D /* ZiplineLogin.png */; };
+		B12D927E193E4EA700B05E90 /* GEKMessagingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B12D927D193E4EA700B05E90 /* GEKMessagingViewController.m */; };
+		B13E0468196599D50042C473 /* GEKSearchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B13E0467196599D50042C473 /* GEKSearchCell.m */; };
+		B17445C01934CCD6008B167F /* GEKParticipants.m in Sources */ = {isa = PBXBuildFile; fileRef = B17445BF1934CCD6008B167F /* GEKParticipants.m */; };
+		B1761B32198A9EB500F54905 /* bubble2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1761B30198A9EB500F54905 /* bubble2@2x.png */; };
+		B1761B33198A9EB500F54905 /* bubbleReceive2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1761B31198A9EB500F54905 /* bubbleReceive2@2x.png */; };
+		B19240451999C5D000C026B6 /* dot.m in Sources */ = {isa = PBXBuildFile; fileRef = B19240441999C5D000C026B6 /* dot.m */; };
+		B1924048199A846700C026B6 /* GEKTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1924047199A846700C026B6 /* GEKTopView.m */; };
+		B192404B199A93DE00C026B6 /* GEKPatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B192404A199A93DE00C026B6 /* GEKPatternViewController.m */; };
+		B192404E199C0DEB00C026B6 /* GEKBankAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = B192404D199C0DEB00C026B6 /* GEKBankAccount.m */; };
+		B195337B1961B9DB00EB2404 /* GEKMessageInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = B195337A1961B9DB00EB2404 /* GEKMessageInputView.m */; };
+		B1A0132C19A52A9100A6F3E8 /* GEKBankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A0132B19A52A9100A6F3E8 /* GEKBankViewController.m */; };
+		B1A0132F19A9444800A6F3E8 /* GEKCreateBankAccountCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A0132E19A9444800A6F3E8 /* GEKCreateBankAccountCell.m */; };
+		B1A506AF1987FCA5004419BF /* GEKSearchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A506AE1987FCA5004419BF /* GEKSearchRequest.m */; };
+		B1A93F35199E6DBB00351FF3 /* selfUser.plist in Resources */ = {isa = PBXBuildFile; fileRef = B1A93F34199E6DBB00351FF3 /* selfUser.plist */; };
+		B1ABB6001981780400CB9F22 /* group-normal.png in Resources */ = {isa = PBXBuildFile; fileRef = B1ABB5F71981780400CB9F22 /* group-normal.png */; };
+		B1ABB6011981780400CB9F22 /* user-normal.png in Resources */ = {isa = PBXBuildFile; fileRef = B1ABB5F81981780400CB9F22 /* user-normal.png */; };
+		B1ABB6021981780400CB9F22 /* -received.png in Resources */ = {isa = PBXBuildFile; fileRef = B1ABB5F91981780400CB9F22 /* -received.png */; };
+		B1ABB6031981780400CB9F22 /* -sent.png in Resources */ = {isa = PBXBuildFile; fileRef = B1ABB5FA1981780400CB9F22 /* -sent.png */; };
+		B1ABB6061981780400CB9F22 /* bubbleReceiveMoney@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1ABB5FE1981780400CB9F22 /* bubbleReceiveMoney@2x.png */; };
+		B1ABB6071981780400CB9F22 /* bubbleMoney@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1ABB5FF1981780400CB9F22 /* bubbleMoney@2x.png */; };
+		B1B22301192F92250050B1E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B22300192F92250050B1E5 /* Foundation.framework */; };
+		B1B22303192F92250050B1E5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B22302192F92250050B1E5 /* CoreGraphics.framework */; };
+		B1B22305192F92250050B1E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B22304192F92250050B1E5 /* UIKit.framework */; };
+		B1B2230B192F92250050B1E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B1B22309192F92250050B1E5 /* InfoPlist.strings */; };
+		B1B2230D192F92250050B1E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B2230C192F92250050B1E5 /* main.m */; };
+		B1B22311192F92250050B1E5 /* GEKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B22310192F92250050B1E5 /* GEKAppDelegate.m */; };
+		B1B22317192F92250050B1E5 /* GEKMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B22316192F92250050B1E5 /* GEKMasterViewController.m */; };
+		B1B22323192F92250050B1E5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B22322192F92250050B1E5 /* XCTest.framework */; };
+		B1B22324192F92250050B1E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B22300192F92250050B1E5 /* Foundation.framework */; };
+		B1B22325192F92250050B1E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B22304192F92250050B1E5 /* UIKit.framework */; };
+		B1B2232D192F92250050B1E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B1B2232B192F92250050B1E5 /* InfoPlist.strings */; };
+		B1B2232F192F92250050B1E5 /* Gecko_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B2232E192F92250050B1E5 /* Gecko_iOSTests.m */; };
+		B1B2233A192F95F40050B1E5 /* GEKThread.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B22339192F95F40050B1E5 /* GEKThread.m */; };
+		B1D3E6FE1993FA8900A2E870 /* GEKTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D3E6FD1993FA8900A2E870 /* GEKTransaction.m */; };
+		B1D6B6BD19742DCC00A01F29 /* GEKCreateUserRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D6B6BC19742DCC00A01F29 /* GEKCreateUserRequest.m */; };
+		B1D6B6FB19757D9000A01F29 /* add-person-active.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D6B6BF19757D9000A01F29 /* add-person-active.png */; };
+		B1D6B6FC19757D9000A01F29 /* add-person-active@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D6B6C019757D9000A01F29 /* add-person-active@2x.png */; };
+		B1D6B6FD19757D9000A01F29 /* add-person-inactive.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D6B6C119757D9000A01F29 /* add-person-inactive.png */; };
+		B1D6B6FE19757D9000A01F29 /* add-person-inactive@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D6B6C219757D9000A01F29 /* add-person-inactive@2x.png */; };
+		B1D6B6FF19757D9000A01F29 /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D6B6C319757D9000A01F29 /* add.png */; };
+		B1D6B70019757D9000A01F29 /* AppIcon29x29.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D6B6C419757D9000A01F29 /* AppIcon29x29.png */; };
+		B1D6B70119757D9000A01F29 /* AppIcon29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D6B6C519757D9000A01F29 /* AppIcon29x29@2x.png */; };
+		B1D6B70219757D9000A01F29 /* AppIcon40x40.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D6B6C619757D9000A01F29 /* AppIcon40x40.png */; };
+		B1D6B70319757D9000A01F29 /* AppIcon40x40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D6B6C719757D9000A01F29 /* AppIcon40x40@2x.png */; };
+		B1D6B70419757D9000A01F29 /* AppIcon60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D6B6C819757D9000A01F29 /* AppIcon60x60.png */; };
+		B1D6B70519757D9000A01F29 /* AppIcon60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D6B6C919757D9000A01F29 /* AppIcon60x60@2x.png */; };
+		B1D6B70619757D9000A01F29 /* AppIcon76x76.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D6B6CA19757D9000A01F29 /* AppIcon76x76.png */; };
+		B1D6B70719757D9000A01F29 /* AppIcon76x76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D6B6CB19757D9000A01F29 /* AppIcon76x76@2x.png */; };
+		B1D6B70819757D9000A01F29 /* bg-login.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1D6B6CC19757D9000A01F29 /* bg-login.jpg */; };
+		B1D6B70919757D9000A01F29 /* bg-login.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D6B6CD19757D9000A01F29 /* bg-login.png */; };
+		B1D6B70A19757D9000A01F29 /* bitcoin-login.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D6B6CE19757D9000A01F29 /* bitcoin-login.png */; };
+		B1D6B70B19757D9000A01F29 /* camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D6B6CF19757D9000A01F29 /* camera@2x.png */; };
+		B1D6B70C19757D9000A01F29 /* chevron.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D6B6D019757D9000A01F29 /* chevron.png */; };
+		B1D6B70D19757D9000A01F29 /* cog.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D6B6D119757D9000A01F29 /* cog.png */; };
+		B1D6B70F19757D9000A01F29 /* create.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D6B6D319757D9000A01F29 /* create.png */; };
+		B1D6B71019757D9000A01F29 /* create@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D6B6D419757D9000A01F29 /* create@2x.png */; };
+		B1D6B71119757D9000A01F29 /* email-login.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D6B6D519757D9000A01F29 /* email-login.png */; };
+		B1D6B71219757D9000A01F29 /* envelope.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D6B6D619757D9000A01F29 /* envelope.png */; };
+		B1D6B71319757D9000A01F29 /* facebook-login.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D6B6D719757D9000A01F29 /* facebook-login.png */; };
+		B1D6B71419757D9000A01F29 /* favicon.ico in Resources */ = {isa = PBXBuildFile; fileRef = B1D6B6D819757D9000A01F29 /* favicon.ico */; };
+		B1D6B71519757D9000A01F29 /* fb.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D6B6D919757D9000A01F29 /* fb.png */; };
+		B1D6B71619757D9000A01F29 /* googleplus-login.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D6B6DA19757D9000A01F29 /* googleplus-login.png */; };
+		B1D6B71719757D9000A01F29 /* googleplus.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D6B6DB19757D9000A01F29 /* googleplus.png */; };
+		B1D6B71819757D9000A01F29 /* horizontal.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D6B6DC19757D9000A01F29 /* horizontal.png */; };
+		B1D6B71919757D9000A01F29 /* instagram-login.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D6B6DD19757D9000A01F29 /* instagram-login.png */; };
+		B1D6B71B19757D9000A01F29 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D6B6DF19757D9000A01F29 /* iTunesArtwork.png */; };
+		B1D6B71C19757D9000A01F29 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D6B6E019757D9000A01F29 /* iTunesArtwork@2x.png */; };
+		B1D6B71D19757D9000A01F29 /* key.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D6B6E119757D9000A01F29 /* key.png */; };
+		B1D6B71E19757D9000A01F29 /* left-bump-red.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D6B6E219757D9000A01F29 /* left-bump-red.png */; };
+		B1D6B71F19757D9000A01F29 /* left-bump.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D6B6E319757D9000A01F29 /* left-bump.png */; };
+		B1D6B72019757D9000A01F29 /* lock.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D6B6E419757D9000A01F29 /* lock.png */; };
+		B1D6B72119757D9000A01F29 /* paperclip-active.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D6B6E519757D9000A01F29 /* paperclip-active.png */; };
+		B1D6B72219757D9000A01F29 /* paperclip-active@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D6B6E619757D9000A01F29 /* paperclip-active@2x.png */; };
+		B1D6B72319757D9000A01F29 /* paperclip.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D6B6E719757D9000A01F29 /* paperclip.png */; };
+		B1D6B72419757D9000A01F29 /* pattern.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D6B6E819757D9000A01F29 /* pattern.png */; };
+		B1D6B72519757D9000A01F29 /* phone.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D6B6E919757D9000A01F29 /* phone.png */; };
+		B1D6B72619757D9000A01F29 /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D6B6EA19757D9000A01F29 /* profile.png */; };
+		B1D6B72719757D9000A01F29 /* profile@2x-2.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D6B6EB19757D9000A01F29 /* profile@2x-2.png */; };
+		B1D6B72819757D9000A01F29 /* profile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D6B6EC19757D9000A01F29 /* profile@2x.png */; };
+		B1D6B72919757D9000A01F29 /* red-bump.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D6B6ED19757D9000A01F29 /* red-bump.png */; };
+		B1D6B72A19757D9000A01F29 /* red-bump@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D6B6EE19757D9000A01F29 /* red-bump@2x.png */; };
+		B1D6B72B19757D9000A01F29 /* remove-person.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D6B6EF19757D9000A01F29 /* remove-person.png */; };
+		B1D6B72C19757D9000A01F29 /* remove-person@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D6B6F019757D9000A01F29 /* remove-person@2x.png */; };
+		B1D6B72D19757D9000A01F29 /* right-bump-red.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D6B6F119757D9000A01F29 /* right-bump-red.png */; };
+		B1D6B72E19757D9000A01F29 /* right-bump.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D6B6F219757D9000A01F29 /* right-bump.png */; };
+		B1D6B72F19757D9000A01F29 /* right-chevron.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D6B6F319757D9000A01F29 /* right-chevron.png */; };
+		B1D6B73119757D9000A01F29 /* thin-red-bump 2.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D6B6F519757D9000A01F29 /* thin-red-bump 2.png */; };
+		B1D6B73219757D9000A01F29 /* thin-red-bump.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D6B6F619757D9000A01F29 /* thin-red-bump.png */; };
+		B1D6B73319757D9000A01F29 /* thin-red-bump@2x 2.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D6B6F719757D9000A01F29 /* thin-red-bump@2x 2.png */; };
+		B1D6B73419757D9000A01F29 /* thin-red-bump@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D6B6F819757D9000A01F29 /* thin-red-bump@2x.png */; };
+		B1D6B73519757D9000A01F29 /* twitter-login.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D6B6F919757D9000A01F29 /* twitter-login.png */; };
+		B1D6B7391975CEF600A01F29 /* GEKBankAccountCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D6B7381975CEF600A01F29 /* GEKBankAccountCell.m */; };
+		B1D6B73F1975D48200A01F29 /* GEKPersonalInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D6B73E1975D48200A01F29 /* GEKPersonalInfoCell.m */; };
+		B1D6B78C197D958800A01F29 /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D6B78B197D958700A01F29 /* KeychainItemWrapper.m */; };
+		B1D6B78E197D963200A01F29 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1D6B78D197D963200A01F29 /* Security.framework */; };
+		B1DB653E1938D2BD000A0E4E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1DB653D1938D2BD000A0E4E /* Default-568h@2x.png */; };
+		B1DB65401938D5A0000A0E4E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1DB653F1938D5A0000A0E4E /* Images.xcassets */; };
+		DE60062C828C46A08F1392A9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3482190063754767B8AA7FB2 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B1B22326192F92250050B1E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1B222F5192F92250050B1E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1B222FC192F92250050B1E5;
+			remoteInfo = "Gecko iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3482190063754767B8AA7FB2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		46D7EA8219AD31E100EFF843 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		B104631D1938E1480064ACBA /* GEKLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEKLoginViewController.h; sourceTree = "<group>"; };
+		B104631E1938E1480064ACBA /* GEKLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEKLoginViewController.m; sourceTree = "<group>"; };
+		B104632219392AF30064ACBA /* GEKSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEKSettingsViewController.h; sourceTree = "<group>"; };
+		B104632319392AF30064ACBA /* GEKSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEKSettingsViewController.m; sourceTree = "<group>"; };
+		B10F8B5B19366D440093DCAA /* GEKThreadCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEKThreadCell.h; sourceTree = "<group>"; };
+		B10F8B5C19366D440093DCAA /* GEKThreadCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEKThreadCell.m; sourceTree = "<group>"; };
+		B11743831940B208001552C8 /* attachment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = attachment.png; sourceTree = "<group>"; };
+		B11743841940B208001552C8 /* attachment@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "attachment@2x.png"; sourceTree = "<group>"; };
+		B11743891940B208001552C8 /* inputTextBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inputTextBG.png; sourceTree = "<group>"; };
+		B117438A1940B208001552C8 /* inputTextBG@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "inputTextBG@2x.png"; sourceTree = "<group>"; };
+		B117438B1940B208001552C8 /* play_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play_button.png; sourceTree = "<group>"; };
+		B117438C1940B208001552C8 /* play_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play_button@2x.png"; sourceTree = "<group>"; };
+		B118263419378D300035860F /* GEKMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEKMessage.h; sourceTree = "<group>"; };
+		B118263519378D300035860F /* GEKMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEKMessage.m; sourceTree = "<group>"; };
+		B12683CF196D981200DB2F1D /* GEKSettingsHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEKSettingsHeaderCell.h; sourceTree = "<group>"; };
+		B12683D0196D981200DB2F1D /* GEKSettingsHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEKSettingsHeaderCell.m; sourceTree = "<group>"; };
+		B12683D2196DDDCE00DB2F1D /* GEKToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GEKToken.h; path = ../GEKToken.h; sourceTree = "<group>"; };
+		B12683D3196DDDCE00DB2F1D /* GEKToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GEKToken.m; path = ../GEKToken.m; sourceTree = "<group>"; };
+		B12683D7196DED5F00DB2F1D /* GEKLoginRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEKLoginRequest.h; sourceTree = "<group>"; };
+		B12683D8196DED5F00DB2F1D /* GEKLoginRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEKLoginRequest.m; sourceTree = "<group>"; };
+		B12683DA196E231B00DB2F1D /* GEKLoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEKLoginManager.h; sourceTree = "<group>"; };
+		B12683DB196E231B00DB2F1D /* GEKLoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEKLoginManager.m; sourceTree = "<group>"; };
+		B12683DD196E576200DB2F1D /* ZiplineLogin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZiplineLogin.png; sourceTree = "<group>"; };
+		B12D927C193E4EA700B05E90 /* GEKMessagingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEKMessagingViewController.h; sourceTree = "<group>"; };
+		B12D927D193E4EA700B05E90 /* GEKMessagingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEKMessagingViewController.m; sourceTree = "<group>"; };
+		B13E0466196599BF0042C473 /* GEKSearchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEKSearchCell.h; sourceTree = "<group>"; };
+		B13E0467196599D50042C473 /* GEKSearchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEKSearchCell.m; sourceTree = "<group>"; };
+		B17445BE1934CCD6008B167F /* GEKParticipants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEKParticipants.h; sourceTree = "<group>"; };
+		B17445BF1934CCD6008B167F /* GEKParticipants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEKParticipants.m; sourceTree = "<group>"; };
+		B1761B30198A9EB500F54905 /* bubble2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubble2@2x.png"; sourceTree = "<group>"; };
+		B1761B31198A9EB500F54905 /* bubbleReceive2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubbleReceive2@2x.png"; sourceTree = "<group>"; };
+		B19240431999C5D000C026B6 /* dot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dot.h; sourceTree = "<group>"; };
+		B19240441999C5D000C026B6 /* dot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dot.m; sourceTree = "<group>"; };
+		B1924046199A846700C026B6 /* GEKTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEKTopView.h; sourceTree = "<group>"; };
+		B1924047199A846700C026B6 /* GEKTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEKTopView.m; sourceTree = "<group>"; };
+		B1924049199A93DE00C026B6 /* GEKPatternViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEKPatternViewController.h; sourceTree = "<group>"; };
+		B192404A199A93DE00C026B6 /* GEKPatternViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEKPatternViewController.m; sourceTree = "<group>"; };
+		B192404C199C0DEB00C026B6 /* GEKBankAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEKBankAccount.h; sourceTree = "<group>"; };
+		B192404D199C0DEB00C026B6 /* GEKBankAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEKBankAccount.m; sourceTree = "<group>"; };
+		B19533791961B9DB00EB2404 /* GEKMessageInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEKMessageInputView.h; sourceTree = "<group>"; };
+		B195337A1961B9DB00EB2404 /* GEKMessageInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEKMessageInputView.m; sourceTree = "<group>"; };
+		B1A0132A19A52A9100A6F3E8 /* GEKBankViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEKBankViewController.h; sourceTree = "<group>"; };
+		B1A0132B19A52A9100A6F3E8 /* GEKBankViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEKBankViewController.m; sourceTree = "<group>"; };
+		B1A0132D19A9444800A6F3E8 /* GEKCreateBankAccountCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEKCreateBankAccountCell.h; sourceTree = "<group>"; };
+		B1A0132E19A9444800A6F3E8 /* GEKCreateBankAccountCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEKCreateBankAccountCell.m; sourceTree = "<group>"; };
+		B1A506AD1987FCA5004419BF /* GEKSearchRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEKSearchRequest.h; sourceTree = "<group>"; };
+		B1A506AE1987FCA5004419BF /* GEKSearchRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEKSearchRequest.m; sourceTree = "<group>"; };
+		B1A93F34199E6DBB00351FF3 /* selfUser.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = selfUser.plist; sourceTree = "<group>"; };
+		B1ABB5F71981780400CB9F22 /* group-normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "group-normal.png"; sourceTree = "<group>"; };
+		B1ABB5F81981780400CB9F22 /* user-normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user-normal.png"; sourceTree = "<group>"; };
+		B1ABB5F91981780400CB9F22 /* -received.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "-received.png"; sourceTree = "<group>"; };
+		B1ABB5FA1981780400CB9F22 /* -sent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "-sent.png"; sourceTree = "<group>"; };
+		B1ABB5FE1981780400CB9F22 /* bubbleReceiveMoney@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bubbleReceiveMoney@2x.png"; path = "Archive/Chat Bubbles/With tips/bubbleReceiveMoney@2x.png"; sourceTree = "<group>"; };
+		B1ABB5FF1981780400CB9F22 /* bubbleMoney@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bubbleMoney@2x.png"; path = "Archive/Chat Bubbles/With tips/bubbleMoney@2x.png"; sourceTree = "<group>"; };
+		B1B222FD192F92250050B1E5 /* Zipline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zipline.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1B22300192F92250050B1E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B1B22302192F92250050B1E5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B1B22304192F92250050B1E5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B1B22308192F92250050B1E5 /* Gecko iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Gecko iOS-Info.plist"; sourceTree = "<group>"; };
+		B1B2230A192F92250050B1E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B1B2230C192F92250050B1E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B1B2230E192F92250050B1E5 /* Gecko iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Gecko iOS-Prefix.pch"; sourceTree = "<group>"; };
+		B1B2230F192F92250050B1E5 /* GEKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GEKAppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		B1B22310192F92250050B1E5 /* GEKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GEKAppDelegate.m; sourceTree = "<group>"; };
+		B1B22313192F92250050B1E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B1B22315192F92250050B1E5 /* GEKMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GEKMasterViewController.h; sourceTree = "<group>"; };
+		B1B22316192F92250050B1E5 /* GEKMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GEKMasterViewController.m; sourceTree = "<group>"; };
+		B1B22321192F92250050B1E5 /* Gecko iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gecko iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1B22322192F92250050B1E5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B1B2232A192F92250050B1E5 /* Gecko iOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Gecko iOSTests-Info.plist"; sourceTree = "<group>"; };
+		B1B2232C192F92250050B1E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B1B2232E192F92250050B1E5 /* Gecko_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Gecko_iOSTests.m; sourceTree = "<group>"; };
+		B1B22338192F95F40050B1E5 /* GEKThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEKThread.h; sourceTree = "<group>"; };
+		B1B22339192F95F40050B1E5 /* GEKThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEKThread.m; sourceTree = "<group>"; };
+		B1D3E6FC1993FA8900A2E870 /* GEKTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEKTransaction.h; sourceTree = "<group>"; };
+		B1D3E6FD1993FA8900A2E870 /* GEKTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEKTransaction.m; sourceTree = "<group>"; };
+		B1D6B6BB19742DCC00A01F29 /* GEKCreateUserRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEKCreateUserRequest.h; sourceTree = "<group>"; };
+		B1D6B6BC19742DCC00A01F29 /* GEKCreateUserRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEKCreateUserRequest.m; sourceTree = "<group>"; };
+		B1D6B6BF19757D9000A01F29 /* add-person-active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add-person-active.png"; sourceTree = "<group>"; };
+		B1D6B6C019757D9000A01F29 /* add-person-active@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add-person-active@2x.png"; sourceTree = "<group>"; };
+		B1D6B6C119757D9000A01F29 /* add-person-inactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add-person-inactive.png"; sourceTree = "<group>"; };
+		B1D6B6C219757D9000A01F29 /* add-person-inactive@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add-person-inactive@2x.png"; sourceTree = "<group>"; };
+		B1D6B6C319757D9000A01F29 /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
+		B1D6B6C419757D9000A01F29 /* AppIcon29x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon29x29.png; sourceTree = "<group>"; };
+		B1D6B6C519757D9000A01F29 /* AppIcon29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon29x29@2x.png"; sourceTree = "<group>"; };
+		B1D6B6C619757D9000A01F29 /* AppIcon40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon40x40.png; sourceTree = "<group>"; };
+		B1D6B6C719757D9000A01F29 /* AppIcon40x40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon40x40@2x.png"; sourceTree = "<group>"; };
+		B1D6B6C819757D9000A01F29 /* AppIcon60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon60x60.png; sourceTree = "<group>"; };
+		B1D6B6C919757D9000A01F29 /* AppIcon60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon60x60@2x.png"; sourceTree = "<group>"; };
+		B1D6B6CA19757D9000A01F29 /* AppIcon76x76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon76x76.png; sourceTree = "<group>"; };
+		B1D6B6CB19757D9000A01F29 /* AppIcon76x76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon76x76@2x.png"; sourceTree = "<group>"; };
+		B1D6B6CC19757D9000A01F29 /* bg-login.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bg-login.jpg"; sourceTree = "<group>"; };
+		B1D6B6CD19757D9000A01F29 /* bg-login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-login.png"; sourceTree = "<group>"; };
+		B1D6B6CE19757D9000A01F29 /* bitcoin-login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bitcoin-login.png"; sourceTree = "<group>"; };
+		B1D6B6CF19757D9000A01F29 /* camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera@2x.png"; sourceTree = "<group>"; };
+		B1D6B6D019757D9000A01F29 /* chevron.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chevron.png; sourceTree = "<group>"; };
+		B1D6B6D119757D9000A01F29 /* cog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cog.png; sourceTree = "<group>"; };
+		B1D6B6D319757D9000A01F29 /* create.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = create.png; sourceTree = "<group>"; };
+		B1D6B6D419757D9000A01F29 /* create@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "create@2x.png"; sourceTree = "<group>"; };
+		B1D6B6D519757D9000A01F29 /* email-login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "email-login.png"; sourceTree = "<group>"; };
+		B1D6B6D619757D9000A01F29 /* envelope.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = envelope.png; sourceTree = "<group>"; };
+		B1D6B6D719757D9000A01F29 /* facebook-login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facebook-login.png"; sourceTree = "<group>"; };
+		B1D6B6D819757D9000A01F29 /* favicon.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = favicon.ico; sourceTree = "<group>"; };
+		B1D6B6D919757D9000A01F29 /* fb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fb.png; sourceTree = "<group>"; };
+		B1D6B6DA19757D9000A01F29 /* googleplus-login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "googleplus-login.png"; sourceTree = "<group>"; };
+		B1D6B6DB19757D9000A01F29 /* googleplus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = googleplus.png; sourceTree = "<group>"; };
+		B1D6B6DC19757D9000A01F29 /* horizontal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = horizontal.png; sourceTree = "<group>"; };
+		B1D6B6DD19757D9000A01F29 /* instagram-login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "instagram-login.png"; sourceTree = "<group>"; };
+		B1D6B6DF19757D9000A01F29 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
+		B1D6B6E019757D9000A01F29 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		B1D6B6E119757D9000A01F29 /* key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = key.png; sourceTree = "<group>"; };
+		B1D6B6E219757D9000A01F29 /* left-bump-red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left-bump-red.png"; sourceTree = "<group>"; };
+		B1D6B6E319757D9000A01F29 /* left-bump.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left-bump.png"; sourceTree = "<group>"; };
+		B1D6B6E419757D9000A01F29 /* lock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lock.png; sourceTree = "<group>"; };
+		B1D6B6E519757D9000A01F29 /* paperclip-active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "paperclip-active.png"; sourceTree = "<group>"; };
+		B1D6B6E619757D9000A01F29 /* paperclip-active@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "paperclip-active@2x.png"; sourceTree = "<group>"; };
+		B1D6B6E719757D9000A01F29 /* paperclip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paperclip.png; sourceTree = "<group>"; };
+		B1D6B6E819757D9000A01F29 /* pattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pattern.png; sourceTree = "<group>"; };
+		B1D6B6E919757D9000A01F29 /* phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phone.png; sourceTree = "<group>"; };
+		B1D6B6EA19757D9000A01F29 /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile.png; sourceTree = "<group>"; };
+		B1D6B6EB19757D9000A01F29 /* profile@2x-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile@2x-2.png"; sourceTree = "<group>"; };
+		B1D6B6EC19757D9000A01F29 /* profile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile@2x.png"; sourceTree = "<group>"; };
+		B1D6B6ED19757D9000A01F29 /* red-bump.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red-bump.png"; sourceTree = "<group>"; };
+		B1D6B6EE19757D9000A01F29 /* red-bump@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red-bump@2x.png"; sourceTree = "<group>"; };
+		B1D6B6EF19757D9000A01F29 /* remove-person.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "remove-person.png"; sourceTree = "<group>"; };
+		B1D6B6F019757D9000A01F29 /* remove-person@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "remove-person@2x.png"; sourceTree = "<group>"; };
+		B1D6B6F119757D9000A01F29 /* right-bump-red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "right-bump-red.png"; sourceTree = "<group>"; };
+		B1D6B6F219757D9000A01F29 /* right-bump.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "right-bump.png"; sourceTree = "<group>"; };
+		B1D6B6F319757D9000A01F29 /* right-chevron.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "right-chevron.png"; sourceTree = "<group>"; };
+		B1D6B6F519757D9000A01F29 /* thin-red-bump 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thin-red-bump 2.png"; sourceTree = "<group>"; };
+		B1D6B6F619757D9000A01F29 /* thin-red-bump.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thin-red-bump.png"; sourceTree = "<group>"; };
+		B1D6B6F719757D9000A01F29 /* thin-red-bump@2x 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thin-red-bump@2x 2.png"; sourceTree = "<group>"; };
+		B1D6B6F819757D9000A01F29 /* thin-red-bump@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thin-red-bump@2x.png"; sourceTree = "<group>"; };
+		B1D6B6F919757D9000A01F29 /* twitter-login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitter-login.png"; sourceTree = "<group>"; };
+		B1D6B7371975CEF600A01F29 /* GEKBankAccountCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEKBankAccountCell.h; sourceTree = "<group>"; };
+		B1D6B7381975CEF600A01F29 /* GEKBankAccountCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEKBankAccountCell.m; sourceTree = "<group>"; };
+		B1D6B73D1975D48200A01F29 /* GEKPersonalInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEKPersonalInfoCell.h; sourceTree = "<group>"; };
+		B1D6B73E1975D48200A01F29 /* GEKPersonalInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEKPersonalInfoCell.m; sourceTree = "<group>"; };
+		B1D6B78A197D958700A01F29 /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
+		B1D6B78B197D958700A01F29 /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
+		B1D6B78D197D963200A01F29 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B1DB653D1938D2BD000A0E4E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B1DB653F1938D5A0000A0E4E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F9BC0915787140AA9AA1B9B8 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1B222FA192F92250050B1E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1D6B78E197D963200A01F29 /* Security.framework in Frameworks */,
+				B1B22303192F92250050B1E5 /* CoreGraphics.framework in Frameworks */,
+				B1B22305192F92250050B1E5 /* UIKit.framework in Frameworks */,
+				B1B22301192F92250050B1E5 /* Foundation.framework in Frameworks */,
+				DE60062C828C46A08F1392A9 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1B2231E192F92250050B1E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1B22323192F92250050B1E5 /* XCTest.framework in Frameworks */,
+				B1B22325192F92250050B1E5 /* UIKit.framework in Frameworks */,
+				B1B22324192F92250050B1E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1046325193930420064ACBA /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B104631D1938E1480064ACBA /* GEKLoginViewController.h */,
+				B104631E1938E1480064ACBA /* GEKLoginViewController.m */,
+				B1B22315192F92250050B1E5 /* GEKMasterViewController.h */,
+				B1B22316192F92250050B1E5 /* GEKMasterViewController.m */,
+				B12D927C193E4EA700B05E90 /* GEKMessagingViewController.h */,
+				B12D927D193E4EA700B05E90 /* GEKMessagingViewController.m */,
+				B1924049199A93DE00C026B6 /* GEKPatternViewController.h */,
+				B192404A199A93DE00C026B6 /* GEKPatternViewController.m */,
+				B104632219392AF30064ACBA /* GEKSettingsViewController.h */,
+				B104632319392AF30064ACBA /* GEKSettingsViewController.m */,
+				B1A0132A19A52A9100A6F3E8 /* GEKBankViewController.h */,
+				B1A0132B19A52A9100A6F3E8 /* GEKBankViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		B11743821940B208001552C8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B1ABB5F51981780400CB9F22 /* Chat Bubbles */,
+				B1D6B6BE19757D9000A01F29 /* Archive */,
+				B11743831940B208001552C8 /* attachment.png */,
+				B11743841940B208001552C8 /* attachment@2x.png */,
+				B11743891940B208001552C8 /* inputTextBG.png */,
+				B117438A1940B208001552C8 /* inputTextBG@2x.png */,
+				B117438B1940B208001552C8 /* play_button.png */,
+				B117438C1940B208001552C8 /* play_button@2x.png */,
+				B12683DD196E576200DB2F1D /* ZiplineLogin.png */,
+				B1ABB5FF1981780400CB9F22 /* bubbleMoney@2x.png */,
+				B1ABB5FE1981780400CB9F22 /* bubbleReceiveMoney@2x.png */,
+				B1761B30198A9EB500F54905 /* bubble2@2x.png */,
+				B1761B31198A9EB500F54905 /* bubbleReceive2@2x.png */,
+				B1A93F34199E6DBB00351FF3 /* selfUser.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B12683D5196DECCE00DB2F1D /* Table View Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B12683CF196D981200DB2F1D /* GEKSettingsHeaderCell.h */,
+				B12683D0196D981200DB2F1D /* GEKSettingsHeaderCell.m */,
+				B1D6B7371975CEF600A01F29 /* GEKBankAccountCell.h */,
+				B1D6B7381975CEF600A01F29 /* GEKBankAccountCell.m */,
+				B1D6B73D1975D48200A01F29 /* GEKPersonalInfoCell.h */,
+				B1D6B73E1975D48200A01F29 /* GEKPersonalInfoCell.m */,
+				B10F8B5B19366D440093DCAA /* GEKThreadCell.h */,
+				B10F8B5C19366D440093DCAA /* GEKThreadCell.m */,
+				B13E0466196599BF0042C473 /* GEKSearchCell.h */,
+				B13E0467196599D50042C473 /* GEKSearchCell.m */,
+				B1A0132D19A9444800A6F3E8 /* GEKCreateBankAccountCell.h */,
+				B1A0132E19A9444800A6F3E8 /* GEKCreateBankAccountCell.m */,
+			);
+			name = "Table View Cells";
+			sourceTree = "<group>";
+		};
+		B12683D6196DECEC00DB2F1D /* Token & Login */ = {
+			isa = PBXGroup;
+			children = (
+				B12683D2196DDDCE00DB2F1D /* GEKToken.h */,
+				B12683D3196DDDCE00DB2F1D /* GEKToken.m */,
+				B1D6B78A197D958700A01F29 /* KeychainItemWrapper.h */,
+				B1D6B78B197D958700A01F29 /* KeychainItemWrapper.m */,
+				B12683D7196DED5F00DB2F1D /* GEKLoginRequest.h */,
+				B12683D8196DED5F00DB2F1D /* GEKLoginRequest.m */,
+				B12683DA196E231B00DB2F1D /* GEKLoginManager.h */,
+				B12683DB196E231B00DB2F1D /* GEKLoginManager.m */,
+				B1D6B6BB19742DCC00A01F29 /* GEKCreateUserRequest.h */,
+				B1D6B6BC19742DCC00A01F29 /* GEKCreateUserRequest.m */,
+			);
+			name = "Token & Login";
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B17445C11934CCE5008B167F /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				B19240431999C5D000C026B6 /* dot.h */,
+				B19240441999C5D000C026B6 /* dot.m */,
+				B192404C199C0DEB00C026B6 /* GEKBankAccount.h */,
+				B192404D199C0DEB00C026B6 /* GEKBankAccount.m */,
+				B17445BE1934CCD6008B167F /* GEKParticipants.h */,
+				B17445BF1934CCD6008B167F /* GEKParticipants.m */,
+				B1A506AD1987FCA5004419BF /* GEKSearchRequest.h */,
+				B1A506AE1987FCA5004419BF /* GEKSearchRequest.m */,
+				B1B22338192F95F40050B1E5 /* GEKThread.h */,
+				B1B22339192F95F40050B1E5 /* GEKThread.m */,
+				B1D3E6FC1993FA8900A2E870 /* GEKTransaction.h */,
+				B1D3E6FD1993FA8900A2E870 /* GEKTransaction.m */,
+				B118263419378D300035860F /* GEKMessage.h */,
+				B118263519378D300035860F /* GEKMessage.m */,
+				B19533791961B9DB00EB2404 /* GEKMessageInputView.h */,
+				B195337A1961B9DB00EB2404 /* GEKMessageInputView.m */,
+				B1924046199A846700C026B6 /* GEKTopView.h */,
+				B1924047199A846700C026B6 /* GEKTopView.m */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		B1ABB5F51981780400CB9F22 /* Chat Bubbles */ = {
+			isa = PBXGroup;
+			children = (
+				B1ABB5F61981780400CB9F22 /* No tips */,
+				B1ABB5FB1981780400CB9F22 /* With tips */,
+			);
+			name = "Chat Bubbles";
+			path = "Archive/Chat Bubbles";
+			sourceTree = "<group>";
+		};
+		B1ABB5F61981780400CB9F22 /* No tips */ = {
+			isa = PBXGroup;
+			children = (
+				B1ABB5F71981780400CB9F22 /* group-normal.png */,
+				B1ABB5F81981780400CB9F22 /* user-normal.png */,
+				B1ABB5F91981780400CB9F22 /* -received.png */,
+				B1ABB5FA1981780400CB9F22 /* -sent.png */,
+			);
+			path = "No tips";
+			sourceTree = "<group>";
+		};
+		B1ABB5FB1981780400CB9F22 /* With tips */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "With tips";
+			sourceTree = "<group>";
+		};
+		B1B222F4192F92250050B1E5 = {
+			isa = PBXGroup;
+			children = (
+				B1DB653D1938D2BD000A0E4E /* Default-568h@2x.png */,
+				B1B22306192F92250050B1E5 /* Gecko iOS */,
+				B1B22328192F92250050B1E5 /* Gecko iOSTests */,
+				B1B222FF192F92250050B1E5 /* Frameworks */,
+				B1B222FE192F92250050B1E5 /* Products */,
+				F9BC0915787140AA9AA1B9B8 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		B1B222FE192F92250050B1E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1B222FD192F92250050B1E5 /* Zipline.app */,
+				B1B22321192F92250050B1E5 /* Gecko iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1B222FF192F92250050B1E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1D6B78D197D963200A01F29 /* Security.framework */,
+				B1B22300192F92250050B1E5 /* Foundation.framework */,
+				B1B22302192F92250050B1E5 /* CoreGraphics.framework */,
+				B1B22304192F92250050B1E5 /* UIKit.framework */,
+				B1B22322192F92250050B1E5 /* XCTest.framework */,
+				3482190063754767B8AA7FB2 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1B22306192F92250050B1E5 /* Gecko iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B11743821940B208001552C8 /* Resources */,
+				B1B2230F192F92250050B1E5 /* GEKAppDelegate.h */,
+				B1B22310192F92250050B1E5 /* GEKAppDelegate.m */,
+				B1B22312192F92250050B1E5 /* Main.storyboard */,
+				46D7EA8219AD31E100EFF843 /* Constants.h */,
+				B1DB653F1938D5A0000A0E4E /* Images.xcassets */,
+				B12683D6196DECEC00DB2F1D /* Token & Login */,
+				B12683D5196DECCE00DB2F1D /* Table View Cells */,
+				B1046325193930420064ACBA /* View Controllers */,
+				B17445C11934CCE5008B167F /* Objects */,
+				B1B22307192F92250050B1E5 /* Supporting Files */,
+			);
+			path = "Gecko iOS";
+			sourceTree = "<group>";
+		};
+		B1B22307192F92250050B1E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1B22308192F92250050B1E5 /* Gecko iOS-Info.plist */,
+				B1B22309192F92250050B1E5 /* InfoPlist.strings */,
+				B1B2230C192F92250050B1E5 /* main.m */,
+				B1B2230E192F92250050B1E5 /* Gecko iOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B1B22328192F92250050B1E5 /* Gecko iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				B1B2232E192F92250050B1E5 /* Gecko_iOSTests.m */,
+				B1B22329192F92250050B1E5 /* Supporting Files */,
+			);
+			path = "Gecko iOSTests";
+			sourceTree = "<group>";
+		};
+		B1B22329192F92250050B1E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1B2232A192F92250050B1E5 /* Gecko iOSTests-Info.plist */,
+				B1B2232B192F92250050B1E5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B1D6B6BE19757D9000A01F29 /* Archive */ = {
+			isa = PBXGroup;
+			children = (
+				B1D6B6BF19757D9000A01F29 /* add-person-active.png */,
+				B1D6B6C019757D9000A01F29 /* add-person-active@2x.png */,
+				B1D6B6C119757D9000A01F29 /* add-person-inactive.png */,
+				B1D6B6C219757D9000A01F29 /* add-person-inactive@2x.png */,
+				B1D6B6C319757D9000A01F29 /* add.png */,
+				B1D6B6C419757D9000A01F29 /* AppIcon29x29.png */,
+				B1D6B6C519757D9000A01F29 /* AppIcon29x29@2x.png */,
+				B1D6B6C619757D9000A01F29 /* AppIcon40x40.png */,
+				B1D6B6C719757D9000A01F29 /* AppIcon40x40@2x.png */,
+				B1D6B6C819757D9000A01F29 /* AppIcon60x60.png */,
+				B1D6B6C919757D9000A01F29 /* AppIcon60x60@2x.png */,
+				B1D6B6CA19757D9000A01F29 /* AppIcon76x76.png */,
+				B1D6B6CB19757D9000A01F29 /* AppIcon76x76@2x.png */,
+				B1D6B6CC19757D9000A01F29 /* bg-login.jpg */,
+				B1D6B6CD19757D9000A01F29 /* bg-login.png */,
+				B1D6B6CE19757D9000A01F29 /* bitcoin-login.png */,
+				B1D6B6CF19757D9000A01F29 /* camera@2x.png */,
+				B1D6B6D019757D9000A01F29 /* chevron.png */,
+				B1D6B6D119757D9000A01F29 /* cog.png */,
+				B1D6B6D319757D9000A01F29 /* create.png */,
+				B1D6B6D419757D9000A01F29 /* create@2x.png */,
+				B1D6B6D519757D9000A01F29 /* email-login.png */,
+				B1D6B6D619757D9000A01F29 /* envelope.png */,
+				B1D6B6D719757D9000A01F29 /* facebook-login.png */,
+				B1D6B6D819757D9000A01F29 /* favicon.ico */,
+				B1D6B6D919757D9000A01F29 /* fb.png */,
+				B1D6B6DA19757D9000A01F29 /* googleplus-login.png */,
+				B1D6B6DB19757D9000A01F29 /* googleplus.png */,
+				B1D6B6DC19757D9000A01F29 /* horizontal.png */,
+				B1D6B6DD19757D9000A01F29 /* instagram-login.png */,
+				B1D6B6DF19757D9000A01F29 /* iTunesArtwork.png */,
+				B1D6B6E019757D9000A01F29 /* iTunesArtwork@2x.png */,
+				B1D6B6E119757D9000A01F29 /* key.png */,
+				B1D6B6E219757D9000A01F29 /* left-bump-red.png */,
+				B1D6B6E319757D9000A01F29 /* left-bump.png */,
+				B1D6B6E419757D9000A01F29 /* lock.png */,
+				B1D6B6E519757D9000A01F29 /* paperclip-active.png */,
+				B1D6B6E619757D9000A01F29 /* paperclip-active@2x.png */,
+				B1D6B6E719757D9000A01F29 /* paperclip.png */,
+				B1D6B6E819757D9000A01F29 /* pattern.png */,
+				B1D6B6E919757D9000A01F29 /* phone.png */,
+				B1D6B6EA19757D9000A01F29 /* profile.png */,
+				B1D6B6EB19757D9000A01F29 /* profile@2x-2.png */,
+				B1D6B6EC19757D9000A01F29 /* profile@2x.png */,
+				B1D6B6ED19757D9000A01F29 /* red-bump.png */,
+				B1D6B6EE19757D9000A01F29 /* red-bump@2x.png */,
+				B1D6B6EF19757D9000A01F29 /* remove-person.png */,
+				B1D6B6F019757D9000A01F29 /* remove-person@2x.png */,
+				B1D6B6F119757D9000A01F29 /* right-bump-red.png */,
+				B1D6B6F219757D9000A01F29 /* right-bump.png */,
+				B1D6B6F319757D9000A01F29 /* right-chevron.png */,
+				B1D6B6F519757D9000A01F29 /* thin-red-bump 2.png */,
+				B1D6B6F619757D9000A01F29 /* thin-red-bump.png */,
+				B1D6B6F719757D9000A01F29 /* thin-red-bump@2x 2.png */,
+				B1D6B6F819757D9000A01F29 /* thin-red-bump@2x.png */,
+				B1D6B6F919757D9000A01F29 /* twitter-login.png */,
+			);
+			path = Archive;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1B222FC192F92250050B1E5 /* Zipline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1B22332192F92250050B1E5 /* Build configuration list for PBXNativeTarget "Zipline" */;
+			buildPhases = (
+				0EEFC89212C94A90BD4249DD /* Check Pods Manifest.lock */,
+				B1B222F9192F92250050B1E5 /* Sources */,
+				B1B222FA192F92250050B1E5 /* Frameworks */,
+				B1B222FB192F92250050B1E5 /* Resources */,
+				DAE2863C7E9F4F419F2B7D52 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zipline;
+			productName = "Gecko iOS";
+			productReference = B1B222FD192F92250050B1E5 /* Zipline.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B1B22320192F92250050B1E5 /* Gecko iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1B22335192F92250050B1E5 /* Build configuration list for PBXNativeTarget "Gecko iOSTests" */;
+			buildPhases = (
+				B1B2231D192F92250050B1E5 /* Sources */,
+				B1B2231E192F92250050B1E5 /* Frameworks */,
+				B1B2231F192F92250050B1E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1B22327192F92250050B1E5 /* PBXTargetDependency */,
+			);
+			name = "Gecko iOSTests";
+			productName = "Gecko iOSTests";
+			productReference = B1B22321192F92250050B1E5 /* Gecko iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1B222F5192F92250050B1E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GEK;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Zipline, inc.";
+				TargetAttributes = {
+					B1B222FC192F92250050B1E5 = {
+						DevelopmentTeam = RT4A9NL2DG;
+					};
+					B1B22320192F92250050B1E5 = {
+						TestTargetID = B1B222FC192F92250050B1E5;
+					};
+				};
+			};
+			buildConfigurationList = B1B222F8192F92250050B1E5 /* Build configuration list for PBXProject "Gecko iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1B222F4192F92250050B1E5;
+			productRefGroup = B1B222FE192F92250050B1E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1B222FC192F92250050B1E5 /* Zipline */,
+				B1B22320192F92250050B1E5 /* Gecko iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1B222FB192F92250050B1E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1D6B71E19757D9000A01F29 /* left-bump-red.png in Resources */,
+				B1D6B6FF19757D9000A01F29 /* add.png in Resources */,
+				B1D6B72019757D9000A01F29 /* lock.png in Resources */,
+				B1D6B71919757D9000A01F29 /* instagram-login.png in Resources */,
+				B1D6B72519757D9000A01F29 /* phone.png in Resources */,
+				B1D6B73319757D9000A01F29 /* thin-red-bump@2x 2.png in Resources */,
+				B1D6B72419757D9000A01F29 /* pattern.png in Resources */,
+				B1ABB6071981780400CB9F22 /* bubbleMoney@2x.png in Resources */,
+				B1D6B72119757D9000A01F29 /* paperclip-active.png in Resources */,
+				B1ABB6061981780400CB9F22 /* bubbleReceiveMoney@2x.png in Resources */,
+				B1D6B70C19757D9000A01F29 /* chevron.png in Resources */,
+				B1D6B72A19757D9000A01F29 /* red-bump@2x.png in Resources */,
+				B1D6B71B19757D9000A01F29 /* iTunesArtwork.png in Resources */,
+				B1D6B70719757D9000A01F29 /* AppIcon76x76@2x.png in Resources */,
+				B1ABB6021981780400CB9F22 /* -received.png in Resources */,
+				B1D6B70519757D9000A01F29 /* AppIcon60x60@2x.png in Resources */,
+				B1D6B71D19757D9000A01F29 /* key.png in Resources */,
+				B1D6B71F19757D9000A01F29 /* left-bump.png in Resources */,
+				B1D6B71719757D9000A01F29 /* googleplus.png in Resources */,
+				B1D6B72E19757D9000A01F29 /* right-bump.png in Resources */,
+				B1761B33198A9EB500F54905 /* bubbleReceive2@2x.png in Resources */,
+				B1D6B71519757D9000A01F29 /* fb.png in Resources */,
+				B1D6B72919757D9000A01F29 /* red-bump.png in Resources */,
+				B1D6B72819757D9000A01F29 /* profile@2x.png in Resources */,
+				B11743951940B208001552C8 /* play_button.png in Resources */,
+				B1D6B6FD19757D9000A01F29 /* add-person-inactive.png in Resources */,
+				B1ABB6011981780400CB9F22 /* user-normal.png in Resources */,
+				B1D6B71C19757D9000A01F29 /* iTunesArtwork@2x.png in Resources */,
+				B10F8B5E19367AC20093DCAA /* Main.storyboard in Resources */,
+				B1D6B73519757D9000A01F29 /* twitter-login.png in Resources */,
+				B1D6B6FE19757D9000A01F29 /* add-person-inactive@2x.png in Resources */,
+				B1D6B73419757D9000A01F29 /* thin-red-bump@2x.png in Resources */,
+				B1D6B71319757D9000A01F29 /* facebook-login.png in Resources */,
+				B1D6B73119757D9000A01F29 /* thin-red-bump 2.png in Resources */,
+				B1D6B72B19757D9000A01F29 /* remove-person.png in Resources */,
+				B1D6B71119757D9000A01F29 /* email-login.png in Resources */,
+				B1D6B71619757D9000A01F29 /* googleplus-login.png in Resources */,
+				B1D6B72719757D9000A01F29 /* profile@2x-2.png in Resources */,
+				B117438E1940B208001552C8 /* attachment@2x.png in Resources */,
+				B1D6B70B19757D9000A01F29 /* camera@2x.png in Resources */,
+				B1D6B6FB19757D9000A01F29 /* add-person-active.png in Resources */,
+				B1D6B72219757D9000A01F29 /* paperclip-active@2x.png in Resources */,
+				B1ABB6031981780400CB9F22 /* -sent.png in Resources */,
+				B1D6B72D19757D9000A01F29 /* right-bump-red.png in Resources */,
+				B1DB65401938D5A0000A0E4E /* Images.xcassets in Resources */,
+				B1D6B71019757D9000A01F29 /* create@2x.png in Resources */,
+				B1D6B70919757D9000A01F29 /* bg-login.png in Resources */,
+				B1D6B71419757D9000A01F29 /* favicon.ico in Resources */,
+				B1D6B70419757D9000A01F29 /* AppIcon60x60.png in Resources */,
+				B1ABB6001981780400CB9F22 /* group-normal.png in Resources */,
+				B1D6B70319757D9000A01F29 /* AppIcon40x40@2x.png in Resources */,
+				B1D6B72F19757D9000A01F29 /* right-chevron.png in Resources */,
+				B12683DE196E576200DB2F1D /* ZiplineLogin.png in Resources */,
+				B1D6B6FC19757D9000A01F29 /* add-person-active@2x.png in Resources */,
+				B1D6B70A19757D9000A01F29 /* bitcoin-login.png in Resources */,
+				B1D6B70219757D9000A01F29 /* AppIcon40x40.png in Resources */,
+				B1D6B72619757D9000A01F29 /* profile.png in Resources */,
+				B1A93F35199E6DBB00351FF3 /* selfUser.plist in Resources */,
+				B1DB653E1938D2BD000A0E4E /* Default-568h@2x.png in Resources */,
+				B1D6B70819757D9000A01F29 /* bg-login.jpg in Resources */,
+				B1D6B70D19757D9000A01F29 /* cog.png in Resources */,
+				B11743931940B208001552C8 /* inputTextBG.png in Resources */,
+				B117438D1940B208001552C8 /* attachment.png in Resources */,
+				B1D6B70119757D9000A01F29 /* AppIcon29x29@2x.png in Resources */,
+				B1D6B72C19757D9000A01F29 /* remove-person@2x.png in Resources */,
+				B1D6B72319757D9000A01F29 /* paperclip.png in Resources */,
+				B11743961940B208001552C8 /* play_button@2x.png in Resources */,
+				B1D6B70619757D9000A01F29 /* AppIcon76x76.png in Resources */,
+				B1D6B73219757D9000A01F29 /* thin-red-bump.png in Resources */,
+				B1D6B71819757D9000A01F29 /* horizontal.png in Resources */,
+				B11743941940B208001552C8 /* inputTextBG@2x.png in Resources */,
+				B1D6B70019757D9000A01F29 /* AppIcon29x29.png in Resources */,
+				B1D6B71219757D9000A01F29 /* envelope.png in Resources */,
+				B1D6B70F19757D9000A01F29 /* create.png in Resources */,
+				B1761B32198A9EB500F54905 /* bubble2@2x.png in Resources */,
+				B1B2230B192F92250050B1E5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1B2231F192F92250050B1E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1B2232D192F92250050B1E5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EEFC89212C94A90BD4249DD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DAE2863C7E9F4F419F2B7D52 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1B222F9192F92250050B1E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1D3E6FE1993FA8900A2E870 /* GEKTransaction.m in Sources */,
+				B1A0132F19A9444800A6F3E8 /* GEKCreateBankAccountCell.m in Sources */,
+				B1B22311192F92250050B1E5 /* GEKAppDelegate.m in Sources */,
+				B1B2230D192F92250050B1E5 /* main.m in Sources */,
+				B104631F1938E1480064ACBA /* GEKLoginViewController.m in Sources */,
+				B1924048199A846700C026B6 /* GEKTopView.m in Sources */,
+				B1D6B73F1975D48200A01F29 /* GEKPersonalInfoCell.m in Sources */,
+				B19240451999C5D000C026B6 /* dot.m in Sources */,
+				B13E0468196599D50042C473 /* GEKSearchCell.m in Sources */,
+				B118263619378D300035860F /* GEKMessage.m in Sources */,
+				B12683D9196DED5F00DB2F1D /* GEKLoginRequest.m in Sources */,
+				B1B22317192F92250050B1E5 /* GEKMasterViewController.m in Sources */,
+				B12683D4196DDDCE00DB2F1D /* GEKToken.m in Sources */,
+				B1B2233A192F95F40050B1E5 /* GEKThread.m in Sources */,
+				B1D6B6BD19742DCC00A01F29 /* GEKCreateUserRequest.m in Sources */,
+				B1D6B7391975CEF600A01F29 /* GEKBankAccountCell.m in Sources */,
+				B192404E199C0DEB00C026B6 /* GEKBankAccount.m in Sources */,
+				B104632419392AF30064ACBA /* GEKSettingsViewController.m in Sources */,
+				B12683DC196E231B00DB2F1D /* GEKLoginManager.m in Sources */,
+				B195337B1961B9DB00EB2404 /* GEKMessageInputView.m in Sources */,
+				B17445C01934CCD6008B167F /* GEKParticipants.m in Sources */,
+				B192404B199A93DE00C026B6 /* GEKPatternViewController.m in Sources */,
+				B1A506AF1987FCA5004419BF /* GEKSearchRequest.m in Sources */,
+				B1A0132C19A52A9100A6F3E8 /* GEKBankViewController.m in Sources */,
+				B12683D1196D981200DB2F1D /* GEKSettingsHeaderCell.m in Sources */,
+				B10F8B5D19366D440093DCAA /* GEKThreadCell.m in Sources */,
+				B12D927E193E4EA700B05E90 /* GEKMessagingViewController.m in Sources */,
+				B1D6B78C197D958800A01F29 /* KeychainItemWrapper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1B2231D192F92250050B1E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1B2232F192F92250050B1E5 /* Gecko_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1B22327192F92250050B1E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1B222FC192F92250050B1E5 /* Zipline */;
+			targetProxy = B1B22326192F92250050B1E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B1B22309192F92250050B1E5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1B2230A192F92250050B1E5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B1B22312192F92250050B1E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1B22313192F92250050B1E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B1B2232B192F92250050B1E5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1B2232C192F92250050B1E5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1B22330192F92250050B1E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "8b50aadd-7090-422e-9bfe-8c731ea67f3f";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B1B22331192F92250050B1E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PROVISIONING_PROFILE = "8b50aadd-7090-422e-9bfe-8c731ea67f3f";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1B22333192F92250050B1E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9BC0915787140AA9AA1B9B8 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Kirk Bowman (D7K52BU4PM)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gecko iOS/Gecko iOS-Prefix.pch";
+				INFOPLIST_FILE = "Gecko iOS/Gecko iOS-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lObjC",
+					"-lz",
+					"-framework",
+					Accelerate,
+					"-framework",
+					CFNetwork,
+					"-framework",
+					CoreData,
+					"-framework",
+					CoreGraphics,
+					"-framework",
+					CoreImage,
+					"-framework",
+					CoreText,
+					"-framework",
+					MobileCoreServices,
+					"-framework",
+					QuartzCore,
+					"-framework",
+					Security,
+					"-framework",
+					SystemConfiguration,
+					"-framework",
+					UIKit,
+					"-all_load",
+					"-lc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B1B22334192F92250050B1E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9BC0915787140AA9AA1B9B8 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Kirk Bowman (D7K52BU4PM)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gecko iOS/Gecko iOS-Prefix.pch";
+				INFOPLIST_FILE = "Gecko iOS/Gecko iOS-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lObjC",
+					"-lz",
+					"-framework",
+					Accelerate,
+					"-framework",
+					CFNetwork,
+					"-framework",
+					CoreData,
+					"-framework",
+					CoreGraphics,
+					"-framework",
+					CoreImage,
+					"-framework",
+					CoreText,
+					"-framework",
+					MobileCoreServices,
+					"-framework",
+					QuartzCore,
+					"-framework",
+					Security,
+					"-framework",
+					SystemConfiguration,
+					"-framework",
+					UIKit,
+					"-all_load",
+					"-lc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+<<<<<<< HEAD
+				PROVISIONING_PROFILE = "";
+=======
+				PROVISIONING_PROFILE = "2392aeae-6095-478d-b7c5-7ab274956c9f";
+>>>>>>> 602d5befcf69d868f15eced21ca2f89efb1a3874
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B1B22336192F92250050B1E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Gecko iOS.app/Gecko iOS";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gecko iOS/Gecko iOS-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Gecko iOSTests/Gecko iOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8b50aadd-7090-422e-9bfe-8c731ea67f3f";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B1B22337192F92250050B1E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Gecko iOS.app/Gecko iOS";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gecko iOS/Gecko iOS-Prefix.pch";
+				INFOPLIST_FILE = "Gecko iOSTests/Gecko iOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8b50aadd-7090-422e-9bfe-8c731ea67f3f";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1B222F8192F92250050B1E5 /* Build configuration list for PBXProject "Gecko iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1B22330192F92250050B1E5 /* Debug */,
+				B1B22331192F92250050B1E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1B22332192F92250050B1E5 /* Build configuration list for PBXNativeTarget "Zipline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1B22333192F92250050B1E5 /* Debug */,
+				B1B22334192F92250050B1E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1B22335192F92250050B1E5 /* Build configuration list for PBXNativeTarget "Gecko iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1B22336192F92250050B1E5 /* Debug */,
+				B1B22337192F92250050B1E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1B222F5192F92250050B1E5 /* Project object */;
+}

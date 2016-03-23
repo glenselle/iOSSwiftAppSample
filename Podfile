@@ -1,0 +1,1 @@
+pod 'InAppSettingsKit', '~> 2.1'

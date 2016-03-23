@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C11D5E78-C322-4B63-BB86-6550F5B076A5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Gecko iOS</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>15491193106345E6A94BCD1728F2A0C798572C93</key>
+		<string>https://github.com/line/Gecko-iOS.git</string>
+		<key>3AF18F9C6F5D633BAA0B3F935459E0C777C82047</key>
+		<string>https://github.com/Masonry/Snappy.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Gecko iOS.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>15491193106345E6A94BCD1728F2A0C798572C93</key>
+		<string>..</string>
+		<key>3AF18F9C6F5D633BAA0B3F935459E0C777C82047</key>
+		<string>..Snappy</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/line/Gecko-iOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>15491193106345E6A94BCD1728F2A0C798572C93</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>15491193106345E6A94BCD1728F2A0C798572C93</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Gecko-iOS</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3AF18F9C6F5D633BAA0B3F935459E0C777C82047</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Gecko-iOSSnappy</string>
+		</dict>
+	</array>
+</dict>
+</plist>
